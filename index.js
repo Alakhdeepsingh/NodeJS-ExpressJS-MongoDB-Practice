@@ -8,7 +8,11 @@ const fs = require('fs');
 // // 10
 // // 20
 // console.log(app.z())
-console.log("10"); 
-fs.writeFileSync("hello.txt", "dry") 
-console.log(__dirname)
-console.log(__filename)
+// console.log("10"); 
+// fs.writeFileSync("hello.txt", "dry") 
+// console.log(__dirname)
+// console.log(__filename)
+
+//we can also write using other function
+const gs = require('fs').writeFileSync;
+gs("xyz.txt","abc");
