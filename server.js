@@ -13,4 +13,6 @@ http.createServer(data).listen(4100);
 function data(req,resp){
     resp.write("<h1>Alakhdeep</h1>");
     resp.end();
+    //response ko end karne ke liye hamm yehh line likte hai
+    // resp.end();
 }
