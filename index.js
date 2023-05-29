@@ -9,4 +9,6 @@ const fs = require('fs');
 // // 20
 // console.log(app.z())
 console.log("10"); 
-fs.writeFileSync("hello.txt", "dry")
+fs.writeFileSync("hello.txt", "dry") 
+console.log(__dirname)
+console.log(__filename)
